@@ -4,5 +4,4 @@ jobs:
   checkout:
     runs-on: ubuntu-latest
     steps:
-      - runs: ls -al
-      
+      - run: ls -al
